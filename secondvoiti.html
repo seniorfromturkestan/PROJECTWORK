@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="secondvoiti.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <form id="main" onsubmit="return checkForm(this)" method="post">
+    <div class="container">
+      <h1>Регистрация на Safari</h1>
+      <h3>Пожалуйста заполните эти формы </h3>
+      <hr>
+      <label for="email"><b>E-mail</b></label><br>
+      <input type="text" placeholder="Введите E-mail" name="email" required><br>
+
+      <label for="psw"><b>Пароль</b></label><br>
+      <input type="password" placeholder="Введите пароль" name="password" required><br>
+
+      <label for="psw-repeat"><b>Повторите пароль</b></label><br>
+      <input type="password" placeholder="Повторите пароль" name="password1" required>
+      <hr>
+
+      <button type="submit" class="register">Зарегистрироваться</button>
+    </div>
+
+    <div class="container">
+      <p>Already have an account? <a href="#">Sign in</a>.</p>
+    </div>
+  </form>
+  <script src="secondvoiti.js"></script>
+</body>
+
+</html>
