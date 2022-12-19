@@ -1,0 +1,195 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    background-color: whitesmoke;
+}
+/* .wrapper{
+    background-color: aliceblue;
+} */
+.egypt {
+    margin-left: 5%;
+    padding-top: 5%;
+    justify-content: center;
+    /* display: flex;
+    flex-wrap: wrap ; */
+}
+
+.main {
+    margin-bottom: 10%;
+    color: white;
+    padding-top: 50px;
+}
+
+.egypt-title {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.egypt-desc{
+    font-size: 150%;
+    font-weight: bold;
+    
+    margin-bottom: 2%;
+}
+
+.egypt1-img {
+    width: 100%;
+    border-radius: 10px;
+
+
+}
+
+.flex {
+    display: flex;
+}
+.egypt2-img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+.egypt3-img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.egypt1 {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+.egypt1:hover{
+    transform: scale(1.04);
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.egypt2 {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: 4%;
+}
+.egypt2:hover{
+    transform: scale(1.04);
+    transition: 0.6s;
+    cursor: pointer;
+}
+.egypt3 {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: 4%;
+    margin-right: 5%;
+}
+.egypt3:hover{
+    transform: scale(1.04);
+    transition: 0.6s;
+    cursor: pointer;
+}
+.egypt1-name {
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 150%;
+    font-weight: bold;
+    color: #269696;
+}
+
+.egypt1-desc {
+    margin-left: 5%;
+    margin-top: 4%;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.egypt2-name {
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 150%;
+    font-weight: bold;
+    color: #269696;
+}
+
+.egypt2-desc {
+    margin-left: 5%;
+    margin-top: 4%;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.egypt3-name {
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 150%;
+    font-weight: bold;
+    color: #269696;
+}
+
+.egypt3-desc {
+    margin-left: 5%;
+    margin-top: 4%;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.egypt1-price {
+    font-weight: bold;
+    color: #e3a034;
+    margin-top: 13%;
+    margin-left: 5%;
+    font-size: 200%;
+}
+
+.egypt1-sum {
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 100%;
+}
+.fourth1, .footer1{
+    margin-top: -250px;
+}
